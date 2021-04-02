@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --black_bg_color:#272822;
+}
+
+nav{
+    background:var(--black_bg_color);
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-contaner{
+width: 60vw;
+margin: auto;
+padding: 32px 0;
+}
+
+.content-contaner>ul>li>p{
+   font-size: 25px;
+   font-family: 'roboto';
+   font-weight: 700;
+}
+/* 
+.content-contaner>ul>li>pre>code{
+   font-size: 10px !important;
+} */
+
+
+nav>h1{
+    display: inline;
+    margin: auto;
+    color: white;
+    font-family: 'Potta One';
+}
+
+.toolbar-item button {
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
